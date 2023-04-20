@@ -8,10 +8,31 @@
     <title>Hacker News Clone</title>
 </head>
 <body>
+    <section id="app-container">
+        <div id="app-header">
+            <header class="header">
+                <div class="flex">
+                    <span class="header-title">
+                        <img class="header-logo" src="Images/Logo.webp" alt="">
+                        HackerNews
+                    </span>
+                    <a href="#/" class="header-link">Top</a>
+                    <a href="#/new" class="header-link">New</a>
+                    <a href="#/ask" class="header-link">Ask</a>
+                    <a href="#/show" class="header-link">Show</a>
+                    <a href="#/favourites" class="header-link">Favourites</a>
+                </div>
+            </header>
+        </div>
+    </section>
+    <section id="route-container">
+        <div id="router-outlet"></div>
+    </section>
     
 
 
 
     <script type="module" src="app.js"></script>
+    <script src="//unpkg.com/navigo@6"></script>
 </body>
 </html>
